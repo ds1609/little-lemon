@@ -31,9 +31,8 @@ export const styles = StyleSheet.create({
     },
     styleInput: {
       borderWidth:1,
-      borderColor:"#EDEFEE",
+      borderColor:"#E6E5EA",
       borderRadius:8,
-      backgroundColor:"#EDEFEE",
       marginTop:10,
       fontFamily:"Karla-Regular",
       fontSize:18
