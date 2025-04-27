@@ -6,7 +6,6 @@ import { MaskedTextInput } from 'react-native-mask-text';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as ImagePicker from 'expo-image-picker';
 import { useRouter } from "expo-router";
-// import * as FileSystem from 'expo-file-system';
 
 export default function Profile() {
   const router = useRouter();
@@ -23,7 +22,7 @@ export default function Profile() {
       const value = await AsyncStorage.getItem('user');
       if (value !== null) {
         const user = JSON.parse(value);
-        console.log('User:', user);
+        // console.log('User:', user);
         setImage(user.photo);
         setFirstName(user.first_name);
         setLastName(user.last_name);
@@ -34,7 +33,7 @@ export default function Profile() {
         let lName = user.last_name ? user.last_name.charAt(0) : "";
         let shortName = fName+lName;
         setShortName(shortName);
-        // return user;
+        
       }
     } catch (error) {
       console.error('Error reading user data:', error);
@@ -44,20 +43,6 @@ export default function Profile() {
   useEffect(() => {
     getUserData();
   }, []);
-
-  // const saveImagePermanently = async (imageUri: string) => {
-  //   const fileName = imageUri.split('/').pop();
-  //   const newPath = FileSystem.documentDirectory + "" + fileName;
-    
-  //   // console.log("newPath",newPath);
-
-  //   await FileSystem.copyAsync({
-  //     from: imageUri,
-  //     to: newPath,
-  //   });
-  
-  //   return newPath;
-  // };
 
   const pickImage = async () => {
     // No permissions request is necessary for launching the image library
@@ -163,13 +148,10 @@ export default function Profile() {
 
       <View style={stylesProfile.styleSectionForm}>
         <Text style={stylesProfile.styleLabel}>Phone Number</Text>
-        {/* <TextInput style={stylesProfile.styleInput} placeholder="Phone Number" value={phone} onChangeText={setPhone} /> */}
         <MaskedTextInput
           mask="(999) 999-9999"
           onChangeText={(text, rawText) => {
-            setPhone(rawText); // rawText = unformatted number
-            // console.log('Formatted:', text);
-            // console.log('Raw:', rawText);
+            setPhone(rawText); 
           }}
           value={phone}
           keyboardType="numeric"
