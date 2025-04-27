@@ -38,7 +38,7 @@ export const homeStyles = StyleSheet.create({
     },
     bannerImage: {
       width:125, 
-      height:171, 
+      height:150, 
       borderRadius:16,
       resizeMode:"cover"
     },
@@ -64,7 +64,7 @@ export const homeStyles = StyleSheet.create({
       fontFamily:"Karla-Regular",
       fontSize:24,
       fontWeight:"bold",
-      marginBottom:43
+      marginBottom:15
     },
     sectionMenus: {
       backgroundColor:"#FFFFFF",
