@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { FlashList } from "@shopify/flash-list";
 import { createTable, getMenuItems, saveMenuItems, filterByQueryAndCategories } from "../database";
 import Filters from "./components/filters";
+import Banner from "./components/banner";
 import { getSectionListData, useUpdateEffect }  from "../utils";
 import debounce from "lodash/debounce";
 import { homeStyles } from "../styles/home.styles";
@@ -112,17 +113,7 @@ export default function Home() {
   return (
     <ScrollView style={homeStyles.container}>
       <View style={homeStyles.sectionBanner}>
-        <Text style={homeStyles.bannerTitle}>Little lemon</Text>
-        
-        <View style={{flexDirection:"row"}}>
-          <View style={{width:"65%"}}>
-            <Text style={homeStyles.bannerSubTitle}>Chicago</Text>
-            <Text style={homeStyles.bannerDescription}>We are a family owned Mediterranean restaurant, focused on traditional recipes served wth a modern twist.</Text>
-          </View>
-          <View style={homeStyles.sectionBannerImage}>
-            <Image source={require("../assets/images/hero_image.png")} style={homeStyles.bannerImage} />
-          </View>
-        </View>
+        <Banner />
 
         <View style={homeStyles.sectionBannerSearch}>
           <Ionicons name="search" style={homeStyles.iconSearch} />
