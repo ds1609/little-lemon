@@ -20,9 +20,9 @@ This app allows users to browse the menu, search & filter dishes, and place orde
 
 ## 📷 Screenshots
 <p align="center">
-  <span><img src="screenshots/register.jpg" alt="Registration" width="200"/><label>Registration</label></span>
-  <span><img src="screenshots/profile.jpg" alt="Profile" width="200"/><label>Profile</label></span>
-  <span><img src="screenshots/home.jpg" alt="Home" width="200"/></span>
+  <span><img src="screenshots/register.jpg" alt="Registration" width="200"/></br><label>Registration</label></span>
+  <span><img src="screenshots/profile.jpg" alt="Profile" width="200"/></br><label>Profile</label></span>
+  <span><img src="screenshots/home.jpg" alt="Home" width="200"/></br><label>Home</label></span>
 </p>
 
 
