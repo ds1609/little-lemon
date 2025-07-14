@@ -19,9 +19,11 @@ This app allows users to browse the menu, search & filter dishes, and place orde
 
 
 ## 📷 Screenshots
-![Registeration](screenshots/register.jpg)
-![Profile](screenshots/profile.jpg)
-![Home](screenshots/home.jpg)
+<p align="center">
+  <img src="screenshots/register.jpg" alt="Registeration" width="200"/>
+  <img src="screenshots/profile.jpg" alt="Profile" width="200"/>
+  <img src="screenshots/home.jpg" alt="Home" width="200"/>
+</p>
 
 
 ## 📄 License
