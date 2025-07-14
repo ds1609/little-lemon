@@ -1,6 +1,6 @@
 # 🍋 Little Lemon Restaurant — React Native App
 
-A mobile application for the fictional **Little Lemon Restaurant**, built as the capstone project for the Meta React Native Specialization.  
+A mobile application for the fictional **Little Lemon Restaurant**, built as the capstone project for the Meta React Native Specialization.<br/>
 This app allows users to browse the menu, search & filter dishes, and place orders with a clean, responsive UI.
 
 ---
@@ -20,9 +20,18 @@ This app allows users to browse the menu, search & filter dishes, and place orde
 
 ## 📷 Screenshots
 <p align="center">
-  <img src="screenshots/register.jpg" alt="Registeration" width="200"/>
-  <img src="screenshots/profile.jpg" alt="Profile" width="200"/>
-  <img src="screenshots/home.jpg" alt="Home" width="200"/>
+    <figure style="display:inline-block; text-align:center; margin:10px;">
+        <img src="screenshots/register.jpg" alt="Registeration" width="200"/><br/>
+        <figcaption>Registeration Screen</figcaption>
+    </figure>
+    <figure style="display:inline-block; text-align:center; margin:10px;">
+        <img src="screenshots/profile.jpg" alt="Profile" width="200"/><br/>
+        <figcaption>Profile Screen</figcaption>
+    </figure>
+    <figure style="display:inline-block; text-align:center; margin:10px;">
+        <img src="screenshots/home.jpg" alt="Home" width="200"/><br/>
+        <figcaption>Home Screen</figcaption>
+    </figure>
 </p>
 
 
