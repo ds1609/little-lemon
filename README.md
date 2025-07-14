@@ -19,11 +19,13 @@ This app allows users to browse the menu, search & filter dishes, and place orde
 
 
 ## 📷 Screenshots
-![Home Screen](screenshots/home.jpg)
+![Registeration](screenshots/register.jpg)
+![Profile](screenshots/profile.jpg)
+![Home](screenshots/home.jpg)
 
 
 ## 📄 License
-This project was developed as part of the Meta React Native Specialization on Coursera.
+This project was developed as part of the Meta React Native Specialization on Coursera.<br/>
 For educational & portfolio purposes only.
 
 
